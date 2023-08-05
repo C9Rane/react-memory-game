@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.d-flex {
+  display: grid;
+}
+
+.e-flex {
+  display: flex;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.App-header {
+  background-color: #ce3333;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  font-weight: 700;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.gameSpace {
+  background-color: #e6e8e2;
+  height: 60vh;
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.score {
+  margin: 0px 15px 0px 15px;
+}
+
+.button {
+  background-color: #FBFFFE;
+  text-align: center;
+  width: 10em;
+  height: 3em;
+  box-shadow: 5px 5px 0px 0px black;
+  border-radius: 35px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.button-mid {
+  background-color: #FBFFFE;
+  text-align: center;
+  width: 10em;
+  height: 3em;
+  box-shadow: 5px 5px 0px 0px rgb(44, 44, 44);
+  border-radius: 35px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.button-start{
+  justify-content: center;
+  background-color: black;
+  min-height: 45px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.button:hover {
+  background-color: lavender;
+}
+
+.button:active {
+  background-color: goldenrod;
+}
+
+.button-mid:hover {
+  background-color: lavender;
+}
+
+.button-mid:active {
+  background-color: goldenrod;
+}

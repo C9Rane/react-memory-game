@@ -1,8 +1,5 @@
-import React, { useState, useEffect } from "react";
 import "../App.css";
-import Papa from "papaparse";
 import Prompt from "./Prompt";
-import App from "../App.jsx";
 
 export default function Game(props) {
   function gameOver() {
@@ -25,10 +22,7 @@ export default function Game(props) {
         gameOver();
       }
     }
-
-    console.log(choice);
-    props.randomPokemon();
-    console.log(props.seenPkmn);
+    props.randomPokemon();;
   }
 
   return (

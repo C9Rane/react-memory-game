@@ -38,7 +38,6 @@ export default class App extends Component {
   }
   
   randomPokemon() {
-    console.log(this.randomPokemon);
     let random = Math.floor(Math.random() * this.state.pokemonNames.length);
     this.setState({
       currPokemon: this.state.pokemonNames[random],
